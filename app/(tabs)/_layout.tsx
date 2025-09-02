@@ -47,6 +47,13 @@ export default function TabLayout() {
            tabBarIcon: ({ color }) => <IconSymbol size={28} name=".fill" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="spotlogin"
+        options={{
+             title: 'SpotifyLogin',
+             tabBarIcon: ({ color }) => <IconSymbol size={28} name=".fill" color={color} />,
+        }}
+      />
 
     </Tabs>
 
